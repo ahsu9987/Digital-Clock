@@ -1,0 +1,49 @@
+ *{ 
+    margin: 0%;
+    padding: 0%;
+}
+
+ body{
+    display: grid;
+    place-items: center;
+    background-image: url(mountain1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: mymove 5s infinite;
+    font-family: 'Lato', sans-serif;
+}
+@keyframes mymove {
+    form {background-image: url(mountain1.jpeg) ;}
+    to {background-image: url(mountain2.jpeg);}
+   
+
+}
+
+  .wrapper{
+    width: 520px;
+    height: 200px;
+    background: whitesmoke;
+    opacity: 0.5;
+    box-shadow: 5px 10px 10px 4px;
+    margin-top: 50%;
+    border-radius: 60px;         
+}
+
+.wrapper .clock{
+    position: relative;
+    top: 20%;
+    left: 8%;          
+    transform: translate (-50%, -50%);  
+    text-align: center;
+    width: 420px;
+    height: 120px;
+    /* background: rgb(1,43,57);    */
+}
+
+.clock #time{
+    font-size: 100px;
+    color:black;
+    padding: 10px;
+    letter-spacing: 15px;
+}   
+
